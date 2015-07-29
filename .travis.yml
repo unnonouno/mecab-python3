@@ -1,0 +1,12 @@
+language: python
+
+python:
+  - "2.7"
+  - "3.4"
+
+before_install:
+  - apt-get install libmecab-dev
+
+install:
+  - python setup.py install
+
